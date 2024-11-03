@@ -1,0 +1,40 @@
+.Cv_container{
+    width : 50vw;
+    height : 80vh;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 1px solid #70BEF7;
+    background-color: white;  
+    position: absolute;
+    top : 20vh;
+    left : 25vw;
+    overflow-y: scroll;
+}
+
+.Cv_box{
+    display:grid;
+    place-items: center;
+}
+
+.closeButton{
+    position: absolute;
+    background-color: white;
+    border : none;
+    top : 1vh;
+    right : 1vw;
+}
+
+.user_Info{
+    position: relative;
+    top : 5h;
+    margin-bottom : 8vh;
+}
+
+.careerflex{
+    display : flex;
+}
+.careerText{
+    margin-top : 4vh;
+    margin-left : 1vw;
+    margin-right : 1vw;
+    font-size: 1.0rem;
+}

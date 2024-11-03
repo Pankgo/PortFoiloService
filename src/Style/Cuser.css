@@ -1,0 +1,23 @@
+.checkContainer{
+    background-color: white;
+    border-radius: 5%;
+    width : 20vw;
+    height: 20vh;
+    display : grid;
+    place-items: center;
+}
+
+.checkBox{
+    width : 15vw;
+    height : 4vh;
+}
+
+.checkButton{
+    background-image: linear-gradient(45deg, Violet, Orange);
+    border : none;
+    color : white;
+
+}
+.checkButton:hover{
+    background: silver;
+}

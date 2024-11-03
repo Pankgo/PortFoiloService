@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "mapleFont";
+  src: url("font/Maplestory\ Bold.ttf");
+}
+
+body {
+	font-family: 'mapleFont';
+}
+
+.Text_Center{
+    position: absolute;
+    top: 20%;
+    left: 40%;;
+}
+
+.formContainer{
+  display: grid;
+  place-items: center;
+  margin-left : -3%;
+}
+
+.Common_Margin{
+    margin-left : 5%;
+}
+
+.select {
+    background: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    height: 100px;
+    margin: 3% 5% 0% 0%;
+    position: relative;
+    width: 300px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .select:hover {
+    background: #E6E6E6;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .select:link{
+    text-decoration: none ; color : black;
+  }
+
+  .home_background{
+    background: url('../img/mountains-1412683_1280.jpg') no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width : 100vw;
+  }

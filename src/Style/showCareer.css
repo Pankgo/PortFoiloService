@@ -1,0 +1,62 @@
+.careerbox{
+    width : 520px;
+    border-radius: 10px;
+    height : 26vh; 
+    box-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 2px solid #70BEF7;
+    background-color: white;
+    padding-left: 3%;
+    margin-bottom: 3%;
+    padding-top : 1%
+}
+
+.careerimg{
+  position: relative;
+  left : 30vw;
+  bottom : 20vh;
+  object-fit: fill;
+  height : 10vh;
+  width : 5vw;
+}
+
+.careerContainer{
+  display: grid;
+  place-items: center;
+}
+
+
+.flex_container{
+    display: flex;
+}
+
+  .career_box_company{
+    display: flex;
+    margin-right : 5%;
+    width : 240px;
+  }
+  .career_box_company p{
+    margin-top: 9%;
+    margin-left: 5%; 
+  }
+  .career_box_company h3{
+    margin-right: 3%; 
+  }
+
+  .career_box_term{
+    display: flex;
+    margin-right : 5%;
+    width : 250px;
+  }
+
+  .career_box_term p{
+    margin-top: 8%;
+    margin-left: 5%; 
+  }
+
+ 
+  .career_box_log  {
+    font-size : 15px;
+  }
+  .career_box_loghead  {
+    height : 3vh;
+  }

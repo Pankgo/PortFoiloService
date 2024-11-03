@@ -1,0 +1,20 @@
+.btn_container{
+    border-radius: 50%;
+    border : none;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-image: linear-gradient(45deg, Violet, Orange);
+    z-index: 1;
+    height : 12vh;
+    width: 6vw;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    bottom : 5vh;
+    right : 6vw;
+    color : white;
+}
+
+.btn_container:hover{
+    background-color: silver;
+}

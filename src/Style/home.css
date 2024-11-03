@@ -1,0 +1,18 @@
+
+/* 사이트제목 */
+.home_HeadTxT{
+bottom : 0%;
+font-size: 8rem;
+display: grid;
+place-items: center;
+font-family: "maplefont";
+background-image: linear-gradient(45deg, Violet, Orange);
+  /* 텍스트만 배경을 클립 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* 모던 브라우저를 위한 백그라운드 클립 */
+  background-clip: text;
+  color: transparent;
+}
+
